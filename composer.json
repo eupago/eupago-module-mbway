@@ -9,6 +9,9 @@
     "magento/module-payment": "100.0.1",
     "magento/framework": "100.0.*"
   },
+  "require-dev": {
+	"phpunit/phpunit": "4.1.0"
+  },
   "version": "100.0.1",
   "license": [
     "OSL-3.0",
