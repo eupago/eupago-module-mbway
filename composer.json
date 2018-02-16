@@ -1,5 +1,6 @@
 {
   "name": "eupago/mbway",
+  "homepage": "https://www.eupago.pt",
   "description": "Module of Integration euPago",
   "type": "magento2-module",
   "require": {
@@ -24,5 +25,6 @@
     "psr-4": {
       "Eupago\\MbWay\\": ""
     }
-  }
+  },
+  "minimum-stability": "dev"
 }
