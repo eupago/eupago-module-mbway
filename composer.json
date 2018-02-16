@@ -26,5 +26,5 @@
       "Eupago\\MbWay\\": ""
     }
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "beta"
 }
