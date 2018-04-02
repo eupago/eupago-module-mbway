@@ -8,7 +8,7 @@
   "require-dev": {
     "phpunit/phpunit": "4.1.0"
   },
-  "version": "100.0.2",
+  "version": "100.0.1",
   "license": [
     "proprietary"
   ],
