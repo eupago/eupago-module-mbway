@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1fe0286-818b-4497-acbd-68982eab7ac2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Gateway/Http/TransferFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway/Http/TransferFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransferFactory.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TransferFactory.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gateway/Http/TransferFactory.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -116,6 +125,7 @@
         <option value="$PROJECT_DIR$/view/frontend/adminhtml/sales_order_create_index.xml" />
         <option value="$PROJECT_DIR$/Model/Adminhtml/Source/PaymentAction.php" />
         <option value="$PROJECT_DIR$/Gateway/Http/TransferFactory.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -226,12 +236,12 @@
       <option name="presentableId" value="Default" />
       <updated>1518695089914</updated>
       <workItem from="1518695091191" duration="9719000" />
-      <workItem from="1526567710876" duration="77000" />
+      <workItem from="1526567710876" duration="242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9796000" />
+    <option name="totallyTimeSpent" value="9961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
@@ -402,6 +412,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
