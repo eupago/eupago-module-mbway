@@ -57,7 +57,7 @@ class ResponseCodeValidator extends AbstractValidator
      */
     private function isSuccessfulTransaction(array $response)
     {
-        if (in_array($response[0]->estado_referencia, Client::$SUCCESS)
+        if (in_array($response[0]->estado_referencia, Client::SUCCESS)
             && ($this->value_order == $this->value_referencia)) {
             return true;
         }

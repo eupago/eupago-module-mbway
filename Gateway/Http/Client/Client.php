@@ -19,7 +19,7 @@ use Magento\Payment\Model\Method\Logger;
  */
 class Client implements ClientInterface
 {
-    public static $SUCCESS = [
+    public const SUCCESS = [
         'paga',
         'transferida',
         'em processamento'
