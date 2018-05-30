@@ -62,7 +62,7 @@ class MbWay extends Action
 
         $chave_api = $this->_objectManager->get('Magento\Framework\App\Config\ScopeConfigInterface')->getValue('payment/' . $metodo_callback . '/api_key');
         if ($callBack_params->chave_api != $chave_api)
-            return ["error" => "chave API inválida", "chave" => $chave_api];
+            return ["error" => "chave API inválida"];
 
         if ($order->getGrandTotal() != $callBack_params->valor)
             return ["error" => "O valor da encomenda e o valor pago não correspondem!"];
