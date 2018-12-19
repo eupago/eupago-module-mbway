@@ -1,5 +1,5 @@
 {
-  "name": "eupago/mbway",
+  "name": "aledefreitas/eupago-mbway",
   "description": "Module of Integration euPago",
   "type": "magento2-module",
   "require": {
