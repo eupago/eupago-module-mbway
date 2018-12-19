@@ -27,6 +27,11 @@ class AfterPlaceOrderObserver extends AbstractDataAssignObserver
         $orderId = $observer->getEvent()->getOrderIds();
         $order = $this->order->load($orderId);
         $currentState = $order->getState();
+        $method = $order->getPayment()->getMethod();
+
+        if($method !== 'mb_way') {
+            return;
+        }
 
         $save = false;
         if ($currentState !== $order::STATE_NEW) {
